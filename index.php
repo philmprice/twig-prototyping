@@ -1,7 +1,7 @@
 <?php
 
 //	BOOT
-require_once 'assets/config/boot.php';
+require_once 'assets/script/boot.php';
 
 //	GET page
 $arrPath					= explode('/', trim($_SERVER['REQUEST_URI'], '/'));

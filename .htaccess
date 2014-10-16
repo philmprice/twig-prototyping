@@ -1,0 +1,6 @@
+RewriteEngine on
+
+#RewriteCond %{REQUEST_URI} !^(.*)(admin|css|employment|files|images|js|nav|temp|templates)/?$
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (.*) index.php?p=$1 [L]

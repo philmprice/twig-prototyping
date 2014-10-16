@@ -1,0 +1,29 @@
+{% extends 'template/site.twig' %}
+
+{% block PageContent %}
+	<div class="row">
+		<div class="col-sm-12 pad-top-10">
+			
+			{% include 'molecule/SlideshowHero.twig' %}
+			
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-6">
+			
+			{% include 'organism/WidgetNews.twig' %}
+			
+		</div>
+		<div class="col-sm-6">
+			 
+			{% include 'organism/WidgetBlog.twig' %}
+			
+		</div>
+		<div class="col-sm-12">
+			
+			{% include 'organism/WidgetSignupNewsletter.twig' %}
+			
+		</div>
+	</div>
+{% endblock %}

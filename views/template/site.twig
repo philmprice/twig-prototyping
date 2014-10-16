@@ -1,0 +1,55 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SiteCrafting Prototype</title>
+		<link rel="stylesheet" href="{{ root }}assets/css/bootstrap.css" />
+		<!-- <link rel="stylesheet" href="css/bootstrap-theme.css" /> -->
+		<link rel="stylesheet" href="{{ root }}assets/css/menu.css" />
+        <!-- <script src="js/vendor/modernizr.js"></script> -->
+	</head>
+	<body>
+        
+        {% include "molecule/_core/ViewMenu.twig" %}
+            
+        <div class="container">
+            
+            {% block PageHeader %}
+                <div class="row">
+                    <div class="col-sm-6">
+
+                        <a href="{{ root }}">{% include 'atom/Logo.twig' %}</a>
+
+                    </div>
+                    <div class="col-sm-6 pad-top-10">
+
+                        {% include 'molecule/Menu.twig' %}
+
+                    </div>
+                </div>
+            {% endblock %}
+            
+            {% block PageContent %}
+                ... page content will go here...
+            {% endblock %}
+            
+            {% block PageFooter %}
+                <div class="row">
+                    <div class="col-sm-12">
+
+                        {% include 'atom/FooterBug.twig' %}
+
+                    </div>
+                </div>
+            {% endblock %}
+        </div>
+        
+		<script src="{{ root }}assets/js/vendor/jquery.js"></script>
+		<script src="{{ root }}assets/js/bootstrap.js"></script>
+		<script src="{{ root }}assets/js/common.js"></script>
+		<script>
+			$(document).foundation();
+		</script>
+	</body>
+</html>

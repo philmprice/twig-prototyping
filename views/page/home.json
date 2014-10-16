@@ -1,0 +1,46 @@
+{
+	"blogItems": {
+		"0": {
+			"date":		"10/5",
+			"headline":	"The dinosaur is out of it's cage (blog)"
+		},
+		"1": {
+			"date":		"9/18",
+			"headline":	"Dinosaur voted best attraction in Tacoma (blog)"
+		},
+		"2": {
+			"date":		"8/11",
+			"headline":	"Dinosaur exhibit opens today (blog)"
+		},
+		"3": {
+			"date":		"7/22",
+			"headline":	"Great news: we're getting a dinosaur (blog)"
+		},
+		"4": {
+			"date":		"6/16",
+			"headline":	"Board of directors seeks dinosaur approval (blog)"
+		}
+	},
+	"newsItems": {
+		"0": {
+			"date":		"10/5",
+			"headline":	"The dinosaur is out of it's cage (news)"
+		},
+		"1": {
+			"date":		"9/18",
+			"headline":	"Dinosaur voted best attraction in Tacoma (news)"
+		},
+		"2": {
+			"date":		"8/11",
+			"headline":	"Dinosaur exhibit opens today (news)"
+		},
+		"3": {
+			"date":		"7/22",
+			"headline":	"Great news: we're getting a dinosaur (news)"
+		},
+		"4": {
+			"date":		"6/16",
+			"headline":	"Board of directors seeks dinosaur approval (news)"
+		}
+	}
+}

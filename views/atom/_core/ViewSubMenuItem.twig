@@ -1,0 +1,10 @@
+<li class="{% if(item.children) %}dropdown-submenu{% endif %}">
+    <a tabindex="-1" href="{{ item.url }}">{{ item.label }}</a>
+	{% if(item.children) %}
+        <ul class="dropdown-menu">
+			{% for child in item.children %}
+				{% include 'atom/_core/ViewSubMenuItem.twig' with {'item': child} %}
+			{% endfor %}
+        </ul>
+	{% endif %}
+</li>

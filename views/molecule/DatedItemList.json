@@ -1,0 +1,24 @@
+{
+	"items": {
+		"0": {
+			"date":		"10/5",
+			"headline":	"The dinosaur is out of it's cage"
+		},
+		"1": {
+			"date":		"9/18",
+			"headline":	"Dinosaur voted best attraction in Tacoma"
+		},
+		"2": {
+			"date":		"8/11",
+			"headline":	"Dinosaur exhibit opens today"
+		},
+		"3": {
+			"date":		"7/22",
+			"headline":	"Great news: we're getting a dinosaur"
+		},
+		"4": {
+			"date":		"6/16",
+			"headline":	"Board of directors seeks dinosaur approval"
+		}
+	}
+}

@@ -41,11 +41,6 @@ $twig->addFunction($function);
 //	FILENAME SUFFIX filter
 $function		= new Twig_SimpleFunction('defaultData', function(&$context) {
 					
-//					echo('<pre>');
-//					print_r($context);
-//					echo('</pre>');
-//					exit;
-	
 					$context['debug']= "this has changed!";
 					$context['items']= array(
 										"0"	=> array('date'		=> '1/1',

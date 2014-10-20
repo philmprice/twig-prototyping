@@ -1,3 +1,5 @@
 {% for item in items %}
-    <span class='label label-default'>{{ item.date }}</span> {{ item.headline }}<br>
+    <span class="addTooltip" class="addTooltip" data-title="This is an item that says '{{ item.headline }}'">
+		<span class='label label-default'>{{ item.date }}</span> {{ item.headline }}<br>
+	</span>
 {% endfor %}

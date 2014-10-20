@@ -21,3 +21,8 @@
     box-shadow: none;
     -webkit-box-shadow: none;
 }
+
+.navbar-item-padding
+{
+	padding: 13px;
+}

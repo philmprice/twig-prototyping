@@ -77,7 +77,7 @@ class ViewManager
 					if(strpos($entry, '.twig') !== false)
 					{
 						//	SET values
-						$label		= ucwords(str_replace('.twig','',$entry));
+						$label		= ucwords(str_replace('.twig','',str_replace('-',' ',$entry)));
 						$type		= 'file';
 						$items		= null;
 						$viewPath	= str_replace($this->absPath,'',$path.$entry);
@@ -113,7 +113,7 @@ class ViewManager
 					if($entry != '_core' && strpos($entry, '-') === false)
 					{
 						//	SET values
-						$label		= ucwords($entry);
+						$label		= ucwords(str_replace('-',' ',$entry));
 						$type		= 'folder';
 						$items		= $this->getFolderContents($path.$entry.'/');
 						$url		= '#';

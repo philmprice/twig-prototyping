@@ -3,7 +3,7 @@
 	{% if(item.children) %}
         <ul class="dropdown-menu">
 			{% for child in item.children %}
-				{% include 'atom/_core/ViewSubMenuItem.twig' with {'item': child} %}
+				{% include 'atom/_core/view-sub-menu-item.twig' with {'item': child} %}
 			{% endfor %}
         </ul>
 	{% endif %}
